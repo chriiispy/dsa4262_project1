@@ -55,11 +55,6 @@ process BAMBU {
 
     """
         #!/usr/bin/env Rscript --vanilla
-             
-        if (!requireNamespace("BiocManager", quietly = TRUE))
-            install.packages("BiocManager")
-        BiocManager::install("bambu")
-        
         library(bambu)
         show("$refGtf")
         annotations <- prepareAnnotations("$refGtf")
