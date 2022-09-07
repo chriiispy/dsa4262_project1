@@ -1,12 +1,3 @@
-// nextflow
-/*
-./nextflow run chriiispy/dsa4262_project1/workflow.nf -resume \
---reads ./project/fastq/SGNex_A549_cDNAStranded_replicate3_run3.fastq.gz \
---refFa ./project/reference/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa \
---refGtf ./project/reference/Homo_sapiens.GRCh38.91.gtf \
---outdir ./project/results/
-*/
-
 // parameters
 params.refFa = '/path/to/ref.fa'
 params.refGtf = '/path/to/ref.gtf'
